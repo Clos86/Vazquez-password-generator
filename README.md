@@ -11,9 +11,9 @@ To create a password generator with certain criteria inputs from user.
 - JavaScript
 
 ## Screenshots
-![ScreenShot](./Images/screenshot1.jpg)
-![ScreenShot](./Images/screenshot2.jpg)
-![ScreenShot](./Images/screenshot3.jpg)
+![ScreenShot](./Develop/Images/screenshot1.jpg)
+![ScreenShot](./Develop/Images/screenshot2.jpg)
+![ScreenShot](./Develop/Images/screenshot3.jpg)
 
 ## Features
 1. CSS hover functions
