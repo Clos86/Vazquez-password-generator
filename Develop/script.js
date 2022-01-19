@@ -29,7 +29,7 @@ function generatePassword() {
   } else {
     alert("You need to at least pick one character type, please try again.");
   }
-  
+
   return returnPassword;
 }
 
@@ -88,5 +88,3 @@ function getRandomValidCharacter(includeLowercase, includeUppercase, includeNume
 }
 
 generateBtn.addEventListener("click", writePassword);
-
-
