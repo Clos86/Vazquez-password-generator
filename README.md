@@ -16,7 +16,7 @@ To create a password generator with certain criteria inputs from user.
 ![ScreenShot](./Develop/Images/screenshot3.jpg)
 
 ## Features
-- Prompting for user for password lenght:
+- Prompting for user for password length:
 ```
 function passwordLengthIsValid(passwordLength) {  
   if (passwordLength < 8) {
