@@ -15,6 +15,7 @@ function generatePassword() {
   var returnPassword = "";
   var passwordLength = getPasswordLengthFromUser();
   
+  // Prompting user for style of password
   if (passwordLengthIsValid(passwordLength)) {    
     var includeLowercase = confirm("Click OK if you want to include lowercase in your password.");
     var includeUppercase = confirm("Click OK if you want to include uppercase in your password.");
@@ -33,11 +34,13 @@ function generatePassword() {
   return returnPassword;
 }
 
+// Prompt user for password length
 function getPasswordLengthFromUser() { 
   var userResponse = prompt("Select a password length between 8 and 128.");
   return userResponse;
 }
 
+// Making sure the user inputs within the correct password length
 function passwordLengthIsValid(passwordLength) {  
   if (passwordLength < 8) {
     return false;
@@ -60,6 +63,7 @@ function generatePasswordFromUserInput(passwordLength, includeLowercase, include
   return returnPassword;
 }
 
+// Generating password from given user input
 function getRandomValidCharacter(includeLowercase, includeUppercase, includeNumeric, includeSpecialChar) {
   var lowerCaseSet = "abcdefghijklmnopqrstuvwxyz";
   var upperCaseSet = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
