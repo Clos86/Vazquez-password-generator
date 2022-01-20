@@ -14,7 +14,7 @@ function writePassword() {
 function generatePassword() {
   var returnPassword = "";
   var passwordLength = getPasswordLengthFromUser();
-  
+
   // Prompting user for style of password
   if (passwordLengthIsValid(passwordLength)) {    
     var includeLowercase = confirm("Click OK if you want to include lowercase in your password.");
