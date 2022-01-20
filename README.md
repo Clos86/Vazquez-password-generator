@@ -11,9 +11,9 @@ To create a password generator with certain criteria inputs from user.
 - JavaScript
 
 ## Screenshots
-![ScreenShot](./Develop/Images/screenshot1.jpg)
-![ScreenShot](./Develop/Images/screenshot2.jpg)
-![ScreenShot](./Develop/Images/screenshot3.jpg)
+![ScreenShot](./Challenge-3/Images/screenshot1.jpg)
+![ScreenShot](.Challenge-3/Images/screenshot2.jpg)
+![ScreenShot](.Challenge-3/Images/screenshot3.jpg)
 
 ## Features
 - Prompting for user for password length:
